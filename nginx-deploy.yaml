@@ -19,3 +19,10 @@ spec:
         image: nginx:1.14.2
         ports:
         - containerPort: 80
+        env:
+	- name: env1
+	  value: val1
+        - name: env2
+          value: val2
+        - name: env3
+          value: val3
